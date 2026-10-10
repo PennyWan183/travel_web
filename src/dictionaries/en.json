@@ -1,0 +1,229 @@
+{
+  "meta": {
+    "title": "Lantern Local · Your local friend for travel in China",
+    "description": "Tell us where you're going in China. We find a trusted local guide, handle the details, and stay with you on chat in English or Korean."
+  },
+  "nav": {
+    "how": "How it works",
+    "destinations": "Destinations",
+    "tips": "China Travel Tips",
+    "about": "About us",
+    "faq": "FAQ",
+    "request": "Send a request",
+    "menu": "Menu",
+    "close": "Close menu",
+    "language": "Language"
+  },
+  "common": {
+    "whatsapp": "WhatsApp",
+    "kakao": "KakaoTalk",
+    "whatsappUs": "WhatsApp us",
+    "sendRequest": "Send a request",
+    "askQuestion": "Ask a question",
+    "continue": "Continue",
+    "freeToAsk": "Free to ask · No payment needed now",
+    "ourTeam": "Our team",
+    "localPartner": "Local partner",
+    "breadcrumbHome": "Home"
+  },
+  "home": {
+    "eyebrow": "Anywhere in China · English & 한국어",
+    "title": "Your local friend for travel in China.",
+    "lead": "Tell us where you're going. We work out what you need, find a trusted local guide there, and stay with you on chat from arrival to departure.",
+    "formTitle": "Find a local guide",
+    "formNote": "Free to ask. We reply with options and a clear price.",
+    "howTitle": "How it works",
+    "steps": [
+      { "title": "Tell us your plan", "text": "Where, when, who's coming and what you'd love to see." },
+      { "title": "We find your local guide", "text": "We talk to licensed guides and agencies there, in Chinese, and send you options." },
+      { "title": "Confirm and pay once", "text": "One clear price, paid by card or PayPal." },
+      { "title": "We're with you on the trip", "text": "Message us any time for translation, changes or help." }
+    ],
+    "whyTitle": "Why travel with Lantern Local",
+    "why": [
+      { "title": "One contact, your language", "text": "You deal with us in English or Korean, start to finish." },
+      { "title": "Checked local partners", "text": "We verify licences and speak with every guide first." },
+      { "title": "No Chinese apps needed", "text": "Tickets, trains and payments that need a Chinese phone: we sort them." },
+      { "title": "Clear price upfront", "text": "The full price before you pay. No shopping stops." }
+    ],
+    "whereTitle": "Where we can help",
+    "askAnyCity": "Ask about any city →",
+    "somewhereElse": "Somewhere else?",
+    "somewhereElseText": "Ask us"
+  },
+  "form": {
+    "where": "Where are you going?",
+    "wherePlaceholder": "City or region, e.g. Xi'an, Yunnan",
+    "arrival": "Arrival date",
+    "departure": "Departure date",
+    "flexible": "My dates are flexible",
+    "travellers": "Travellers",
+    "travellersPlaceholder": "e.g. 2 adults",
+    "help": "What would you like help with?",
+    "helpPlaceholder": "Guide, driver, full itinerary, tickets…",
+    "submit": "Send my request",
+    "sending": "Sending…",
+    "adults": "Adults",
+    "children": "Children",
+    "guideLanguage": "Guide language",
+    "services": "Services (choose any)",
+    "serviceOptions": ["Local guide", "Private driver", "Airport pickup", "Full itinerary", "Trains & tickets", "Hotel suggestions"],
+    "interests": "Interests",
+    "interestOptions": ["History", "Food", "Nature & hiking", "Tea & crafts", "Photography", "Family-friendly"],
+    "style": "Travel style",
+    "styleOptions": [
+      { "title": "Simple", "text": "Good value, the essentials" },
+      { "title": "Comfortable", "text": "Private guide, nice hotels" },
+      { "title": "Premium", "text": "Top guides, every detail handled" }
+    ],
+    "notes": "Anything else we should know?",
+    "notesPlaceholder": "Must-sees, mobility needs, dietary needs, a special occasion…",
+    "name": "Your name",
+    "email": "Email",
+    "chatVia": "Best way to chat",
+    "chatOptions": ["WhatsApp", "KakaoTalk", "Email only"],
+    "handle": "WhatsApp number or Kakao ID",
+    "handlePlaceholder": "+1 555 0100 / kakao-id",
+    "consent": "I agree that Lantern Local may share the trip details I give with the local guide or agency arranging my trip, as described in the privacy policy.",
+    "errorRequired": "Please fill in your destination, name, a valid email and the consent box.",
+    "errorSend": "Sorry, something went wrong. Please try again or message us on WhatsApp.",
+    "successTitle": "Thank you, we've got your request.",
+    "successText": "A real person will read it and reply within {responseTime}. Keep an eye on your email and chat app."
+  },
+  "request": {
+    "eyebrow": "Free trip request",
+    "title": "Tell us about your trip",
+    "lead": "A few details are enough to start. A real person reads every request and replies with options and a clear price. Nothing to pay until you confirm.",
+    "sectionWhere": "Where and when",
+    "sectionWho": "Who's travelling",
+    "sectionWhat": "What you need",
+    "sectionContact": "How to reach you",
+    "nextTitle": "What happens next",
+    "next": [
+      "We read your request and reply within {responseTime}.",
+      "We check with local guides and send you options with one clear price.",
+      "You adjust until it's right, then confirm with a deposit."
+    ],
+    "chatTitle": "Prefer to just chat?",
+    "chatText": "Send us a message and tell us your plans in your own words."
+  },
+  "how": {
+    "eyebrow": "How it works",
+    "title": "One contact for your whole trip in China",
+    "lead": "You talk to us in English or Korean. We find and check the right local people, in Chinese, and stay with you until you fly home.",
+    "steps": [
+      { "title": "Tell us your plan", "text": "Fill in the request form or message us on WhatsApp or Kakao. Cities, dates, who's coming, what you love. Rough ideas are fine.", "note": "Free · no payment" },
+      { "title": "We find your local people", "text": "In Hangzhou and Shanghai, our own team guides you. Everywhere else, we contact licensed guides and agencies in that city, check them, and choose the best fit.", "note": "You receive a plan and one clear price" },
+      { "title": "Adjust, then confirm", "text": "Change anything until it feels right. A deposit by card or PayPal confirms your trip, and we send a written itinerary with every booking listed.", "note": "Pay us once · we pay everyone locally" },
+      { "title": "We're with you on the trip", "text": "Your guide meets you on the day. If anything changes, a train is late or you need a translator on the phone, message us and we sort it out.", "note": "Support hours: {supportHours}" }
+    ],
+    "compareTitle": "Our cities and partner cities",
+    "compareHead": ["", "Hangzhou & Shanghai", "Other cities in China"],
+    "compareRows": [
+      ["Who guides you", "Our own team", "A licensed local guide or agency we've checked"],
+      ["Who plans your trip", "Us", "Us, with our local partner"],
+      ["Who you pay", "Us", "Us"],
+      ["Who you message", "Us", "Us, any time during your trip"]
+    ],
+    "pricingTitle": "How pricing works",
+    "pricing": [
+      { "title": "One total price", "text": "Your quote lists everything we arrange (guide, driver, tickets, trains) plus our planning and support, as one figure. No hidden extras and no shopping stops." },
+      { "title": "Deposit, then balance", "text": "A deposit of {depositPercent} confirms your trip. The balance is due {balanceTiming} before you travel. Card or PayPal." },
+      { "title": "Changes and cancellation", "text": "[CANCELLATION POLICY SUMMARY]. Full terms are in our booking conditions." }
+    ],
+    "included": "Usually included: guide, driver, entry tickets you asked for, our support",
+    "notIncluded": "Usually not included: flights, meals unless stated, personal spending",
+    "ctaTitle": "Ready to start?",
+    "ctaText": "Tell us where you're going. It's free to ask."
+  },
+  "about": {
+    "eyebrow": "About us",
+    "title": "A small team from Hangzhou, lighting the way across China",
+    "story": "[OUR STORY · 2–3 sentences: who you are, why you started Lantern Local, what you care about when people visit China.]",
+    "teamTitle": "The people you'll talk to",
+    "partnersTitle": "How we choose local partners",
+    "partnersLead": "Outside Hangzhou and Shanghai, we work with local guides and agencies. Every one of them goes through the same checks before they meet a guest.",
+    "checks": [
+      { "title": "Licence checked", "text": "Travel agency and guide licences verified." },
+      { "title": "A real conversation", "text": "We talk with each guide about language, style and routes." },
+      { "title": "Clear written terms", "text": "Service standards, no added shopping stops, and who is responsible for what." },
+      { "title": "Reviewed after every trip", "text": "Your feedback decides who we work with next time." }
+    ],
+    "company": "Registered company",
+    "licence": "Travel agency licence",
+    "insurance": "Insurance",
+    "insuranceText": "Travel agency liability insurance",
+    "contact": "Contact",
+    "ctaTitle": "Say hello and tell us where you're going."
+  },
+  "destinations": {
+    "title": "Where we can help",
+    "lead": "Our own team guides you in Hangzhou and Shanghai. Everywhere else in China, we arrange checked local partners and stay with you on chat.",
+    "ourTeamNote": "Our own team",
+    "partnerNote": "Trusted local partner"
+  },
+  "city": {
+    "homeBadge": "Our home city · Our own team",
+    "partnerBadge": "Trusted local partner",
+    "guidesAvailable": "English & Korean guides available",
+    "plan": "Plan {city} with us",
+    "suggestedStay": "Suggested stay",
+    "gettingThere": "Getting there",
+    "pairsWith": "Pairs well with",
+    "arrangedBy": "Arranged by",
+    "ideasTitle": "Ideas for your days",
+    "ideasLead": "Every trip is planned around you. These are starting points, not fixed tours.",
+    "takesCareTitle": "What your guide takes care of",
+    "takesCare": [
+      "Tickets and timed entries, booked with the right ID",
+      "Getting around: driver, metro or taxi, without a Chinese phone",
+      "Ordering food and paying where cards aren't accepted",
+      "History and stories in English or Korean"
+    ],
+    "partnerTitle": "Who will guide you",
+    "partnerChecks": [
+      "Agency licence checked by our team",
+      "We speak with your guide before you arrive",
+      "Every trip reviewed afterwards",
+      "You can message us at any point"
+    ],
+    "teamTitle": "Your {city} team",
+    "teamLead": "There's no partner in between here: the people who answer your messages are the people who guide you.",
+    "faqTitle": "Questions about {city}",
+    "planTitle": "Plan your {city} days"
+  },
+  "faq": {
+    "title": "Frequently asked questions",
+    "items": [
+      { "q": "Do you only cover Hangzhou and Shanghai?", "a": "No. Our own team guides in Hangzhou and Shanghai, and for other cities in China we arrange checked local guides or agencies and stay with you on chat." },
+      { "q": "Does it cost anything to ask?", "a": "No. Sending a request is free. You only pay once you accept a plan and price." },
+      { "q": "How do I pay?", "a": "By card or PayPal, to us. A deposit confirms your trip and the balance is due before you travel." },
+      { "q": "Do I need a visa?", "a": "It depends on your passport and route. Many travellers can enter visa-free or use visa-free transit, but rules change. Ask us and we'll point you to the current official rules." },
+      { "q": "Which languages do your guides speak?", "a": "English and Korean, and of course Chinese. Tell us your preference in the request form." }
+    ]
+  },
+  "tips": {
+    "title": "China Travel Tips",
+    "lead": "Practical guides for your trip: visas, paying, getting online and getting around.",
+    "comingSoon": "Coming soon",
+    "topics": [
+      { "title": "Visas and visa-free entry", "text": "Who can enter without a visa, and what to check before you book." },
+      { "title": "Paying in China", "text": "Setting up Alipay or WeChat Pay with a foreign card, and when cash still helps." },
+      { "title": "Phone and internet", "text": "eSIMs, roaming and the apps that work in China." },
+      { "title": "Trains and getting around", "text": "Booking high-speed trains, taxis and metro without a Chinese phone number." }
+    ]
+  },
+  "legal": {
+    "privacyTitle": "Privacy policy",
+    "termsTitle": "Booking conditions",
+    "placeholder": "[This page is a placeholder. Add your full text before launch.]"
+  },
+  "footer": {
+    "licence": "Licence"
+  },
+  "notFound": {
+    "title": "Page not found",
+    "text": "This page doesn't exist. Head back home or send us a request.",
+    "home": "Back to home"
+  }
+}

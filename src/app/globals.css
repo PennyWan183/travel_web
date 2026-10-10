@@ -1,0 +1,81 @@
+@import "tailwindcss";
+
+/* Blue & White Porcelain design tokens (see the design guide artboard) */
+@theme {
+  --color-cobalt: #1f3c88;
+  --color-cobalt-deep: #142a63;
+  --color-cobalt-mid: #3e5fa8;
+  --color-glaze-line: #b9c6e3;
+  --color-glaze-tint: #e7ecf6;
+  --color-glaze-soft: #dde3f0;
+  --color-field-line: #c9d3ea;
+  --color-porcelain: #fbfaf6;
+  --color-ink: #1a2440;
+  --color-ink-soft: #4a5573;
+  --color-error: #b42318;
+  --color-kakao: #fee500;
+
+  --font-serif: "Noto Serif", "Noto Serif KR", "Noto Serif SC", "Songti SC", "AppleMyungjo", Georgia, serif;
+  --font-sans: "Noto Sans", "Noto Sans KR", "Noto Sans SC", "Apple SD Gothic Neo", "PingFang SC", "Microsoft YaHei", system-ui, sans-serif;
+}
+
+/* Base element styles live in the base layer so Tailwind utilities can override them */
+@layer base {
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--color-porcelain);
+  color: var(--color-ink);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+}
+
+a {
+  color: var(--color-cobalt);
+}
+a:hover {
+  color: var(--color-cobalt-deep);
+}
+
+:focus-visible {
+  outline: 3px solid var(--color-cobalt-mid);
+  outline-offset: 2px;
+}
+}
+
+@layer components {
+/* Text input look shared by every form */
+.field {
+  width: 100%;
+  min-height: 44px;
+  box-sizing: border-box;
+  border: 1px solid var(--color-field-line);
+  border-radius: 10px;
+  padding: 12px;
+  font: inherit;
+  font-weight: 400;
+  background: var(--color-porcelain);
+  color: var(--color-ink);
+}
+.field:focus {
+  outline: 3px solid var(--color-glaze-tint);
+  border: 2px solid var(--color-cobalt);
+  padding: 11px;
+  background: #fff;
+}
+
+/* Double cobalt ring used on tile (square) and plate (round) frames */
+.tile-frame {
+  border: 2px solid var(--color-cobalt);
+  box-shadow: inset 0 0 0 6px var(--color-porcelain), inset 0 0 0 7px var(--color-cobalt-mid);
+  background: var(--color-glaze-tint);
+}
+.plate-frame {
+  border: 2px solid var(--color-cobalt);
+  border-radius: 9999px;
+  box-shadow: inset 0 0 0 5px #fff, inset 0 0 0 6px var(--color-cobalt-mid);
+  background: var(--color-glaze-tint);
+}
+}
