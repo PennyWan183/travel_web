@@ -83,7 +83,9 @@ export async function POST(request: Request) {
   });
 
   if (!res.ok) {
+    // Keep the request in the log so it is not lost, then report the failure.
     console.error("[inquiry] Resend error", res.status, await res.text());
+    console.error("[inquiry] Undelivered request:\n" + text);
     return Response.json({ ok: false, error: "Email failed" }, { status: 502 });
   }
   return Response.json({ ok: true, delivered: true });
