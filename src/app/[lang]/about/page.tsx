@@ -3,14 +3,15 @@ import Link from "next/link";
 import { site } from "@/config/site";
 import { getDictionary, getLocale, href } from "@/i18n";
 import { PhotoSlot } from "@/components/Motifs";
+import { TeamScene } from "@/components/TeamScene";
 import { CtaPanel, Eyebrow, Footer, Header } from "@/components/SiteChrome";
 
-/** TODO: replace with your real team. Put photos in /public/images/team/. */
-const team = [
-  { name: "[Name]", role: "[Role] · Hangzhou", languages: "English · 中文", photo: undefined },
-  { name: "[Name]", role: "[Role] · Shanghai", languages: "English · 한국어", photo: undefined },
-  { name: "[Name]", role: "[Role] · Trip support", languages: "English · 한국어 · 中文", photo: undefined },
-];
+/** TODO: fill in each person's role and languages, e.g. "Trip planner · English · 中文". */
+const teamMeta = {
+  penny: "[Role] · [Languages]",
+  echo: "[Role] · [Languages]",
+  cassie: "[Role] · [Languages]",
+};
 
 export async function generateMetadata(): Promise<Metadata> {
   const dict = await getDictionary();
@@ -36,18 +37,18 @@ export default async function AboutPage() {
         </section>
 
         <section className="border-y border-glaze-soft bg-white px-6 py-20">
-          <div className="mx-auto flex max-w-[1200px] flex-col gap-10">
+          <div className="mx-auto flex max-w-[1100px] flex-col gap-6">
             <h2 className="m-0 text-center font-serif text-[36px] font-normal">{a.teamTitle}</h2>
-            <div className="grid grid-cols-[repeat(auto-fit,minmax(220px,1fr))] gap-8">
-              {team.map((person, i) => (
-                <div key={i} className="flex flex-col items-center gap-2.5 text-center">
-                  <PhotoSlot src={person.photo} label="Portrait" className="plate-frame h-40 w-40" />
-                  <h3 className="m-0 mt-1 font-serif text-xl font-semibold">{person.name}</h3>
-                  <span className="text-ink-soft">{person.role}</span>
-                  <span className="text-sm text-cobalt-mid">{person.languages}</span>
-                </div>
-              ))}
-            </div>
+            <TeamScene
+              title={a.teamTitle}
+              hint={a.teamHint}
+              members={(["penny", "echo", "cassie"] as const).map((id) => ({
+                id,
+                name: id[0].toUpperCase() + id.slice(1),
+                line: a.people[id],
+                meta: teamMeta[id],
+              }))}
+            />
           </div>
         </section>
 
