@@ -94,7 +94,7 @@ a:hover {
 .team-scene .person:focus-visible .hit { stroke: var(--color-cobalt-mid); stroke-width: 3; stroke-dasharray: 6 6; }
 .team-scene[data-active] .person { opacity: 0.28; }
 .team-scene[data-active="penny"] [data-person="penny"],
-.team-scene[data-active="echo"] [data-person="echo"],
+.team-scene[data-active="holiday"] [data-person="holiday"],
 .team-scene[data-active="cassie"] [data-person="cassie"] { opacity: 1; }
 .team-card { animation: team-card-fade 0.2s ease; }
 @keyframes team-card-fade { from { opacity: 0; } }

@@ -4,15 +4,17 @@ import { useState, type CSSProperties } from "react";
 import { teamSceneSvg } from "./team-scene-svg";
 
 export type TeamMember = {
-  id: "penny" | "echo" | "cassie";
+  id: "penny" | "holiday" | "cassie";
   name: string;
+  role: string;
   line: string;
-  meta: string;
+  speaks: string;
+  travelled: string;
 };
 
 /** Where each person's card points, in % of the drawing. */
 const anchors: Record<TeamMember["id"], { x: number; y: number }> = {
-  echo: { x: 16.1, y: 37.7 },
+  holiday: { x: 16.1, y: 37.7 },
   penny: { x: 51.3, y: 48.7 },
   cassie: { x: 83.5, y: 37.7 },
 };
@@ -21,7 +23,17 @@ const anchors: Record<TeamMember["id"], { x: number; y: number }> = {
  * The team as one line-art scene. Hover (desktop), tap (mobile) or focus a
  * person to highlight them and show their card. Names are always listed below.
  */
-export function TeamScene({ members, title, hint }: { members: TeamMember[]; title: string; hint: string }) {
+export function TeamScene({
+  members,
+  title,
+  hint,
+  labels,
+}: {
+  members: TeamMember[];
+  title: string;
+  hint: string;
+  labels: { speaks: string; travelled: string };
+}) {
   const [hover, setHover] = useState<string | null>(null);
   const [pinned, setPinned] = useState<string | null>(null);
   const active = pinned ?? hover;
@@ -56,19 +68,25 @@ export function TeamScene({ members, title, hint }: { members: TeamMember[]; tit
         {person && anchor && (
           <div
             aria-live="polite"
-            className="team-card pointer-events-none relative mx-auto mt-3 w-[min(320px,100%)] sm:absolute sm:mt-0 sm:w-[240px] rounded-[14px] border-[1.5px] border-cobalt bg-white px-3.5 py-3 shadow-[0_8px_24px_rgba(31,60,136,0.12)]"
+            className="team-card pointer-events-none relative mx-auto mt-3 w-[min(320px,100%)] sm:absolute sm:mt-0 sm:w-[260px] rounded-[14px] border-[1.5px] border-cobalt bg-white px-3.5 py-3 shadow-[0_8px_24px_rgba(31,60,136,0.12)]"
             style={{ "--x": `${Math.min(Math.max(anchor.x, 16), 84)}%`, "--y": `${anchor.y}%` } as CSSProperties}
           >
             <b className="block font-serif text-lg text-cobalt">{person.name}</b>
-            <p className="m-0 mt-1 mb-1.5 text-sm leading-snug">{person.line}</p>
-            <span className="text-xs text-ink-soft">{person.meta}</span>
+            <span className="block text-xs tracking-[0.08em] text-cobalt-mid">{person.role}</span>
+            <p className="m-0 mt-1.5 mb-2 text-sm leading-snug">{person.line}</p>
+            <dl className="m-0 grid grid-cols-[auto_1fr] gap-x-2 gap-y-0.5 text-xs text-ink-soft">
+              <dt>{labels.speaks}</dt>
+              <dd className="m-0 text-ink">{person.speaks}</dd>
+              <dt>{labels.travelled}</dt>
+              <dd className="m-0 text-ink">{person.travelled}</dd>
+            </dl>
           </div>
         )}
       </figure>
 
       <p className="m-0 text-center text-sm text-ink-soft">{hint}</p>
       <ul className="m-0 flex list-none flex-wrap justify-center gap-2.5 p-0">
-        {["echo", "penny", "cassie"].map((id) => {
+        {["holiday", "penny", "cassie"].map((id) => {
           const m = members.find((x) => x.id === id)!;
           return (
             <li key={id}>

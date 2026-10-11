@@ -6,13 +6,6 @@ import { PhotoSlot } from "@/components/Motifs";
 import { TeamScene } from "@/components/TeamScene";
 import { CtaPanel, Eyebrow, Footer, Header } from "@/components/SiteChrome";
 
-/** TODO: fill in each person's role and languages, e.g. "Trip planner · English · 中文". */
-const teamMeta = {
-  penny: "[Role] · [Languages]",
-  echo: "[Role] · [Languages]",
-  cassie: "[Role] · [Languages]",
-};
-
 export async function generateMetadata(): Promise<Metadata> {
   const dict = await getDictionary();
   return { title: dict.nav.about };
@@ -42,11 +35,11 @@ export default async function AboutPage() {
             <TeamScene
               title={a.teamTitle}
               hint={a.teamHint}
-              members={(["penny", "echo", "cassie"] as const).map((id) => ({
+              labels={a.peopleLabels}
+              members={(["penny", "holiday", "cassie"] as const).map((id) => ({
                 id,
                 name: id[0].toUpperCase() + id.slice(1),
-                line: a.people[id],
-                meta: teamMeta[id],
+                ...a.people[id],
               }))}
             />
           </div>

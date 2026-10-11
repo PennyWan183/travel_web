@@ -142,7 +142,12 @@
     "story": "[OUR STORY · 2–3 sentences: who you are, why you started Lantern Local, what you care about when people visit China.]",
     "teamTitle": "The people you'll talk to",
     "teamHint": "Hover or tap someone to say hello.",
-    "people": { "penny": "Builds your trip piece by piece, like a pavilion out of bricks.", "echo": "Keeps your journey in tune, from the first message to the last day.", "cassie": "Your warmest welcome to Hangzhou. The cat says hello too." },
+    "peopleLabels": { "speaks": "Speaks", "travelled": "Has travelled in" },
+    "people": {
+      "penny": { "role": "Trip planner", "line": "Builds your trip piece by piece, like a pavilion out of bricks.", "speaks": "Chinese · English", "travelled": "China · Australia · France · Indonesia" },
+      "holiday": { "role": "Local guide", "line": "Keeps your journey in tune, from the first message to the last day.", "speaks": "Chinese · English", "travelled": "China · France · Indonesia" },
+      "cassie": { "role": "Trip planner & local guide", "line": "Your warmest welcome to Hangzhou. The cat says hello too.", "speaks": "Chinese · Korean · English", "travelled": "China · Korea" }
+    },
     "partnersTitle": "How we choose local partners",
     "partnersLead": "Outside Hangzhou and Shanghai, we work with local guides and agencies. Every one of them goes through the same checks before they meet a guest.",
     "checks": [
