@@ -11,7 +11,7 @@ export const site = {
   // TODO: KakaoTalk channel link, e.g. "https://pf.kakao.com/_xxxx/chat"
   kakaoUrl: "",
   // TODO: public contact email
-  email: "hello@lanternlocaltours.com",
+  email: "lanternlocal@zohomail.com",
 
   // TODO: legal details shown in the footer and on About
   companyName: "[Company name]",
