@@ -83,7 +83,8 @@ export const cities: City[] = [
             ko: "인파가 몰리기 전 제방을 걷고, 배를 타고 호수를 건너며 풍경 속 이야기를 들어보세요.",
             zh: "趁人少走一走苏堤白堤，再乘船游湖，听每处风景背后的故事。",
           },
-          photo: { en: "Su Causeway in the morning", ko: "아침의 소제", zh: "清晨的苏堤" },
+          photo: { en: "Boats on West Lake", ko: "서호의 유람선", zh: "西湖游船" },
+          image: "/images/ideas/hz-su-causeway.jpg",
         },
         {
           duration: { en: "Half day", ko: "반나절", zh: "半天" },
@@ -94,6 +95,7 @@ export const cities: City[] = [
             zh: "漫步茶山，拜访茶农人家，在产地品一杯龙井。",
           },
           photo: { en: "Longjing tea terraces", ko: "룽징 차밭", zh: "龙井茶园" },
+          image: "/images/ideas/hz-longjing.jpg",
         },
         {
           duration: { en: "Half day", ko: "반나절", zh: "半天" },
@@ -104,6 +106,7 @@ export const cities: City[] = [
             zh: "崖壁石刻与中国最知名的佛寺之一，用你的语言讲给你听。",
           },
           photo: { en: "Lingyin Temple", ko: "영은사", zh: "灵隐寺" },
+          image: "/images/ideas/hz-lingyin.jpg",
         },
         {
           duration: { en: "Day trip", ko: "당일치기", zh: "一日游" },
@@ -188,6 +191,7 @@ export const cities: City[] = [
             zh: "不用在门口手忙脚乱。向导搞定门票，并讲述俑坑背后的故事。",
           },
           photo: { en: "Terracotta warriors, Pit 1", ko: "병마용 1호갱", zh: "兵马俑一号坑" },
+          image: "/images/ideas/xa-terracotta.jpg",
         },
         {
           duration: { en: "Afternoon to evening", ko: "오후~저녁", zh: "下午到晚上" },
@@ -197,7 +201,8 @@ export const cities: City[] = [
             ko: "옛 성벽을 자전거로 달리고, 뭘 시켜야 하는지 아는 사람과 골목 맛집을 누벼보세요.",
             zh: "在古城墙上骑行，再跟着懂行的人一路吃遍小巷。",
           },
-          photo: { en: "City Wall at sunset", ko: "해 질 녘 성벽", zh: "日落时的城墙" },
+          photo: { en: "The Bell Tower at night", ko: "밤의 종루", zh: "钟楼夜景" },
+          image: "/images/ideas/xa-bell-tower.jpg",
         },
         {
           duration: { en: "Full day", ko: "하루", zh: "一天" },
@@ -208,6 +213,7 @@ export const cities: City[] = [
             zh: "陕西历史博物馆和大雁塔，预约提前帮你搞定。",
           },
           photo: { en: "Big Wild Goose Pagoda", ko: "대안탑", zh: "大雁塔" },
+          image: "/images/ideas/xa-big-goose-pagoda.jpg",
         },
       ],
       faq: [
@@ -245,6 +251,7 @@ export const cities: City[] = [
   },
   {
     slug: "chengdu",
+    image: "/images/cities/chengdu.jpg",
     name: { en: "Chengdu", ko: "청두", zh: "成都" },
     chineseName: "成都",
     kind: "partner",
