@@ -46,12 +46,14 @@ export type City = {
 export const cities: City[] = [
   {
     slug: "shanghai",
+    image: "/images/cities/shanghai.jpg",
     name: { en: "Shanghai", ko: "상하이", zh: "上海" },
     chineseName: "上海",
     kind: "home",
   },
   {
     slug: "hangzhou",
+    image: "/images/cities/hangzhou.jpg",
     name: { en: "Hangzhou", ko: "항저우", zh: "杭州" },
     chineseName: "杭州",
     kind: "home",
@@ -155,6 +157,7 @@ export const cities: City[] = [
   },
   {
     slug: "xian",
+    image: "/images/cities/xian.jpg",
     name: { en: "Xi'an", ko: "시안", zh: "西安" },
     chineseName: "西安",
     kind: "partner",
@@ -235,6 +238,7 @@ export const cities: City[] = [
   },
   {
     slug: "beijing",
+    image: "/images/cities/beijing.jpg",
     name: { en: "Beijing", ko: "베이징", zh: "北京" },
     chineseName: "北京",
     kind: "partner",

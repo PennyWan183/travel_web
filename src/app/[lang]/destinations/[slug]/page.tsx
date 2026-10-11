@@ -70,7 +70,8 @@ export default async function CityPage({ params }: PageProps<"/[lang]/destinatio
               <span className="text-[13px] text-ink-soft">{c.guidesAvailable}</span>
             </div>
             <h1 className="m-0 font-serif text-[40px] leading-[1.1] font-normal sm:text-[56px]">
-              {name} <span className="text-[0.64em] text-cobalt-mid">{city.chineseName}</span>
+              {name}{" "}
+              {locale !== "zh" && <span className="text-[0.64em] text-cobalt-mid">{city.chineseName}</span>}
             </h1>
             <p className="m-0 max-w-[32em] text-lg leading-[1.7] text-ink-soft">{pick(page.intro, locale)}</p>
             <div className="flex flex-wrap gap-3">

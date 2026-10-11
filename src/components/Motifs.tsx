@@ -62,6 +62,15 @@ export function PhotoSlot({
   className?: string;
 }) {
   if (src) {
+    // Framed slots keep the porcelain double ring: the photo sits inside it.
+    if (/tile-frame|plate-frame/.test(className)) {
+      return (
+        <div className={`overflow-hidden p-[8px] ${className}`}>
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img src={src} alt={label} className="h-full w-full rounded-[inherit] object-cover" />
+        </div>
+      );
+    }
     // eslint-disable-next-line @next/next/no-img-element
     return <img src={src} alt={label} className={`object-cover ${className}`} />;
   }
