@@ -7,7 +7,7 @@ export const site = {
   url: "https://lanternlocaltours.com",
 
   // TODO: WhatsApp number in international format, digits only (e.g. "8613800000000")
-  whatsappNumber: "",
+  whatsappNumber: "6287752220135",
   // TODO: KakaoTalk channel link, e.g. "https://pf.kakao.com/_xxxx/chat"
   kakaoUrl: "",
   // TODO: public contact email
@@ -20,7 +20,7 @@ export const site = {
   insurer: "[Insurer]",
 
   // TODO: shown on the request form and How it works
-  responseTime: "[RESPONSE TIME]",
+  responseTime: "24h",
   supportHours: "[SUPPORT HOURS]",
   depositPercent: "[DEPOSIT %]",
   balanceTiming: "[BALANCE TIMING]",

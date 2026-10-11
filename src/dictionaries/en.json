@@ -88,7 +88,7 @@
     "errorRequired": "Please fill in your destination, name, a valid email and the consent box.",
     "errorSend": "Sorry, something went wrong. Please try again or message us on WhatsApp.",
     "successTitle": "Thank you, we've got your request.",
-    "successText": "A real person will read it and reply within {responseTime}. Keep an eye on your email and chat app."
+    "successText": "A real person will read it and reply within 24 hours. Keep an eye on your email and chat app."
   },
   "request": {
     "eyebrow": "Free trip request",
@@ -100,7 +100,7 @@
     "sectionContact": "How to reach you",
     "nextTitle": "What happens next",
     "next": [
-      "We read your request and reply within {responseTime}.",
+      "We read your request and reply within 24 hours.",
       "We check with local guides and send you options with one clear price.",
       "You adjust until it's right, then confirm with a deposit."
     ],
