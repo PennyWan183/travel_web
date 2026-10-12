@@ -112,10 +112,10 @@
     "title": "One contact for your whole trip in China",
     "lead": "You talk to us in English or Korean. We find and check the right local people, in Chinese, and stay with you until you fly home.",
     "steps": [
-      { "title": "Tell us your plan", "text": "Fill in the request form or message us on WhatsApp or Kakao. Cities, dates, who's coming, what you love. Rough ideas are fine.", "note": "Free · no payment" },
+      { "title": "Tell us your plan", "text": "Fill in the request form or message us on WhatsApp. Cities, dates, who's coming, what you love. Rough ideas are fine.", "note": "Free · no payment" },
       { "title": "We find your local people", "text": "In Hangzhou and Shanghai, our own team guides you. Everywhere else, we contact licensed guides and agencies in that city, check them, and choose the best fit.", "note": "You receive a plan and one clear price" },
       { "title": "Adjust, then confirm", "text": "Change anything until it feels right. A deposit by card or PayPal confirms your trip, and we send a written itinerary with every booking listed.", "note": "Pay us once · we pay everyone locally" },
-      { "title": "We're with you on the trip", "text": "Your guide meets you on the day. If anything changes, a train is late or you need a translator on the phone, message us and we sort it out.", "note": "Support hours: {supportHours}" }
+      { "title": "We're with you on the trip", "text": "Your guide meets you on the day. If anything changes, a train is late or you need a translator on the phone, message us and we sort it out.", "note": "We reply within 24 hours" }
     ],
     "compareTitle": "Our cities and partner cities",
     "compareHead": ["", "Hangzhou & Shanghai", "Other cities in China"],
@@ -128,8 +128,8 @@
     "pricingTitle": "How pricing works",
     "pricing": [
       { "title": "One total price", "text": "Your quote lists everything we arrange (guide, driver, tickets, trains) plus our planning and support, as one figure. No hidden extras and no shopping stops." },
-      { "title": "Deposit, then balance", "text": "A deposit of {depositPercent} confirms your trip. The balance is due {balanceTiming} before you travel. Card or PayPal." },
-      { "title": "Changes and cancellation", "text": "[CANCELLATION POLICY SUMMARY]. Full terms are in our booking conditions." }
+      { "title": "Deposit, then balance", "text": "A deposit confirms your trip and the balance is paid before you travel. The exact amounts and dates are written in your quote. Card or PayPal." },
+      { "title": "Changes and cancellation", "text": "Cancellation terms depend on what your trip includes. We set them out clearly in your quote, before you pay anything." }
     ],
     "included": "Usually included: guide, driver, entry tickets you asked for, our support",
     "notIncluded": "Usually not included: flights, meals unless stated, personal spending",
@@ -139,7 +139,7 @@
   "about": {
     "eyebrow": "About us",
     "title": "A small team from Hangzhou, lighting the way across China",
-    "story": "[OUR STORY · 2–3 sentences: who you are, why you started Lantern Local, what you care about when people visit China.]",
+    "story": "We're a group of people who love to travel, and who love sharing and learning about the cultures of different countries. China is vast, with landscapes that run from snowy mountains and deserts to lakes, coastlines and old water towns. We hope to see all of it, and the wider world too, and to share China's beautiful places and the people who live there with more friends along the way. Life is a journey: let's go and discover how wonderfully varied the world is, together.",
     "teamTitle": "The people you'll talk to",
     "teamHint": "Hover or tap someone to say hello.",
     "peopleLabels": { "speaks": "Speaks", "travelled": "Has travelled in" },
@@ -223,7 +223,8 @@
   "legal": {
     "privacyTitle": "Privacy policy",
     "termsTitle": "Booking conditions",
-    "placeholder": "[This page is a placeholder. Add your full text before launch.]"
+    "privacyBody": ["When you send us a request or a message, we receive only what you choose to share: your name, how to contact you, and your trip details such as dates, destinations, group size and interests.", "We use this only to reply to you, plan your trip and arrange the guides, drivers and tickets you ask for. When a local partner looks after part of your trip, we share with them only what they need to do that.", "We never sell your information or use it for unrelated marketing.", "Requests sent from this website reach our team by email, through our email service provider.", "You can ask us at any time to show you, correct or delete the information we hold about you. Just email {email}."],
+    "termsBody": ["Asking is free. Sending a request or chatting with us costs nothing and doesn't commit you to anything.", "Every trip is confirmed in writing. Before you pay, we send you a quote with what's included, the total price, the deposit, when the balance is due, and the cancellation terms for that trip.", "Your trip is booked once you accept the quote and pay the deposit.", "Some costs, such as train tickets, hotel nights and entry tickets, follow the rules of the company that sells them. We'll always tell you what can be refunded before you book.", "Questions about a booking? Email {email} or message us on WhatsApp."]
   },
   "footer": {
     "licence": "Licence"

@@ -50,7 +50,7 @@ export function StepSeal({ n, filled = false, size = 56 }: { n: number; filled?:
 
 /**
  * A photo slot. Shows the image when `src` is set, otherwise a labelled
- * placeholder describing the photo to add.
+ * soft porcelain placeholder with the photo's caption until one is added.
  */
 export function PhotoSlot({
   src,
@@ -78,9 +78,10 @@ export function PhotoSlot({
     <div
       role="img"
       aria-label={label}
-      className={`flex items-center justify-center bg-glaze-tint p-6 text-center text-sm text-ink-soft ${className}`}
+      className={`flex flex-col items-center justify-center gap-2 bg-glaze-tint p-6 text-center text-sm text-cobalt-mid ${className}`}
     >
-      [{label}]
+      <LanternIcon size={30} />
+      {label}
     </div>
   );
 }

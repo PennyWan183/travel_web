@@ -26,7 +26,7 @@ export default async function AboutPage() {
             <h1 className="m-0 font-serif text-[38px] leading-[1.15] font-normal sm:text-[50px]">{a.title}</h1>
             <p className="m-0 text-lg leading-[1.7] text-ink-soft">{a.story}</p>
           </div>
-          <PhotoSlot label="Team photo by West Lake" className="tile-frame h-[380px] min-w-0 flex-[1_1_380px] rounded-[20px]" />
+          <PhotoSlot src="/images/cities/hangzhou.jpg" label="West Lake, Hangzhou" className="tile-frame h-[380px] min-w-0 flex-[1_1_380px] rounded-[20px]" />
         </section>
 
         <section className="border-y border-glaze-soft bg-white px-6 py-20">

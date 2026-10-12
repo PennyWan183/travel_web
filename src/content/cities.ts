@@ -140,7 +140,11 @@ export const cities: City[] = [
         },
         {
           q: { en: "When is the best time to visit?", ko: "언제 가는 게 가장 좋나요?", zh: "什么季节去最好？" },
-          a: { en: "[YOUR ADVICE ON SEASONS, e.g. spring tea season and autumn.]" },
+          a: {
+            en: "Spring (March to May) and autumn (September to November) are the loveliest. Spring brings fresh Longjing tea and blossom around West Lake; autumn brings mild days and the scent of osmanthus. Summer is hot and humid, with a rainy spell from mid-June, but lotus fills the lake. Winter is quiet and chilly, and snow on West Lake is a rare treat. If you can, avoid China's national holidays in early May and 1–7 October, when everywhere is very crowded.",
+            ko: "봄(3~5월)과 가을(9~11월)이 가장 좋습니다. 봄에는 햇 룽징차와 서호의 꽃을, 가을에는 온화한 날씨와 계화 향기를 즐길 수 있습니다. 여름은 덥고 습하며 6월 중순부터 장마가 있지만, 호수 가득 연꽃이 핍니다. 겨울은 한적하고 쌀쌀하며, 눈 내린 서호는 드문 선물입니다. 가능하면 사람이 매우 많은 중국 연휴(5월 초, 10월 1~7일)는 피하세요.",
+            zh: "春季（3–5 月）和秋季（9–11 月）最好。春天可以喝到新茶龙井，看西湖边花开；秋天天气温和，满城桂花香。夏天炎热潮湿，6 月中旬起有梅雨，但湖里开满荷花。冬天游人少、天气冷，偶尔能遇到难得的西湖雪景。尽量避开五一假期和国庆（10 月 1–7 日），到处人都很多。",
+          },
         },
         {
           q: { en: "How do I pay?", ko: "결제는 어떻게 하나요?", zh: "怎么付款？" },
@@ -234,11 +238,12 @@ export const cities: City[] = [
           },
         },
       ],
-      partnerName: "[PARTNER AGENCY]",
+      // Add the agency's name here and put {partner} back in the text to show it.
+      partnerName: "",
       partnerText: {
-        en: "In Xi'an we work with {partner}, a licensed local agency. You book and pay with us; they provide your guide on the ground.",
-        ko: "시안에서는 정식 허가를 받은 현지 여행사 {partner}와 함께합니다. 예약과 결제는 저희와, 현장 가이드는 파트너가 담당합니다.",
-        zh: "在西安，我们与持证当地旅行社 {partner} 合作。你在我们这里预订和付款，他们负责现场向导。",
+        en: "In Xi'an we work with a licensed local agency we've checked ourselves. You book and pay with us; they provide your guide on the ground.",
+        ko: "시안에서는 저희가 직접 확인한 정식 허가 현지 여행사와 함께합니다. 예약과 결제는 저희와, 현장 가이드는 파트너가 담당합니다.",
+        zh: "在西安，我们与亲自考察过的持证当地旅行社合作。你在我们这里预订和付款，他们负责现场向导。",
       },
     },
   },

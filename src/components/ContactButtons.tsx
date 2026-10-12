@@ -1,8 +1,14 @@
-import { kakaoLink, whatsappLink } from "@/config/site";
+import { kakaoLink, site, whatsappLink } from "@/config/site";
 import type { Dictionary } from "@/i18n";
 
-/** WhatsApp + KakaoTalk buttons. `onDark` for use on the cobalt panels. */
-export function ContactButtons({ dict, onDark = false }: { dict: Dictionary; onDark?: boolean }) {
+/** WhatsApp + KakaoTalk buttons (Kakao shows once site.kakaoUrl is set). `onDark` for use on the cobalt panels. */
+export function ContactButtons({
+  dict,
+  onDark = false,
+}: {
+  dict: Dictionary;
+  onDark?: boolean;
+}) {
   return (
     <div className="flex flex-wrap gap-3">
       <a
@@ -15,12 +21,14 @@ export function ContactButtons({ dict, onDark = false }: { dict: Dictionary; onD
       >
         {dict.common.whatsapp}
       </a>
-      <a
-        href={kakaoLink()}
-        className="inline-flex min-h-12 items-center rounded-full bg-kakao px-5 font-medium text-ink no-underline hover:text-ink hover:brightness-95"
-      >
-        {dict.common.kakao}
-      </a>
+      {site.kakaoUrl && (
+        <a
+          href={kakaoLink()}
+          className="inline-flex min-h-12 items-center rounded-full bg-kakao px-5 font-medium text-ink no-underline hover:text-ink hover:brightness-95"
+        >
+          {dict.common.kakao}
+        </a>
+      )}
     </div>
   );
 }
