@@ -1,7 +1,13 @@
 import type { NextConfig } from "next";
 
+/** Only the live site (Vercel production) may appear in search engines. */
+const isProduction = process.env.VERCEL_ENV === "production";
+
 const nextConfig: NextConfig = {
-  /* config options here */
+  // Preview and test deployments tell search engines not to index anything.
+  async headers() {
+    return isProduction ? [] : [{ source: "/:path*", headers: [{ key: "X-Robots-Tag", value: "noindex, nofollow" }] }];
+  },
   cacheComponents: true,
   partialPrefetching: true,
   turbopack: {

@@ -21,6 +21,8 @@ export async function generateMetadata(): Promise<Metadata> {
     alternates: {
       languages: Object.fromEntries(locales.map((l) => [l, `/${l}`])),
     },
+    // Keep preview / test deployments out of search results.
+    robots: process.env.VERCEL_ENV === "production" ? undefined : { index: false, follow: false },
   };
 }
 
