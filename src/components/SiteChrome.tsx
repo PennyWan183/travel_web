@@ -1,19 +1,21 @@
 import Link from "next/link";
 import { site } from "@/config/site";
 import { href, type Dictionary, type Locale } from "@/i18n";
+import { hasArticles } from "@/lib/articles";
 import { LanguageSwitcher } from "./LanguageSwitcher";
 import { MobileMenu } from "./MobileMenu";
 import { LanternIcon, WaveBand } from "./Motifs";
 
-export type NavKey = "how" | "journeys" | "tips" | "about" | "faq";
+export type NavKey = "how" | "journeys" | "explore" | "tips" | "about" | "faq";
 
 export function Header({ dict, locale, active }: { dict: Dictionary; locale: Locale; active?: NavKey }) {
   const items: { key: NavKey; path: string }[] = [
     { key: "journeys", path: "/journeys" },
-    { key: "how", path: "/how-it-works" },
+    // Shown once there is at least one published Explore China story.
+    ...(hasArticles() ? [{ key: "explore" as const, path: "/explore" }] : []),
     { key: "tips", path: "/tips" },
+    { key: "how", path: "/how-it-works" },
     { key: "about", path: "/about" },
-    { key: "faq", path: "/faq" },
   ];
 
   return (
@@ -53,6 +55,7 @@ export function Header({ dict, locale, active }: { dict: Dictionary; locale: Loc
               closeLabel={dict.nav.close}
               items={[
                 ...items.map((item) => ({ href: href(locale, item.path), label: dict.nav[item.key] })),
+                { href: href(locale, "/faq"), label: dict.nav.faq },
                 { href: href(locale, "/request"), label: dict.nav.request },
               ]}
             />
@@ -74,6 +77,7 @@ export function Footer({ dict, locale }: { dict: Dictionary; locale: Locale }) {
           {site.licenseNumber && ` · ${dict.footer.licence} ${site.licenseNumber}`}
         </span>
         <span className="flex flex-wrap gap-4">
+          <Link href={href(locale, "/faq")}>{dict.nav.faq}</Link>
           <Link href={href(locale, "/privacy")}>{dict.legal.privacyTitle}</Link>
           <Link href={href(locale, "/terms")}>{dict.legal.termsTitle}</Link>
           <a href={`mailto:${site.email}`}>{site.email}</a>

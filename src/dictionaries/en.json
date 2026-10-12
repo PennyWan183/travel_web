@@ -6,6 +6,7 @@
   "nav": {
     "how": "How it works",
     "journeys": "Journeys",
+    "explore": "Explore China",
     "destinations": "Destinations",
     "tips": "China Travel Tips",
     "about": "About us",
@@ -171,6 +172,26 @@
     "lead": "Our own team guides you in Hangzhou and Shanghai. Everywhere else in China, we arrange checked local partners and stay with you on chat.",
     "ourTeamNote": "Our own team",
     "partnerNote": "Trusted local partner"
+  },
+  "explore": {
+    "eyebrow": "Explore China",
+    "title": "China, one province at a time",
+    "lead": "Stories and films about the places we love, written and shot by our team. Start with the big picture, then step into a province.",
+    "startHere": "Start here",
+    "provincesTitle": "Provinces",
+    "comingSoon": "Our first stories are on the way.",
+    "minRead": "{n} min read",
+    "by": "By {name}",
+    "draft": "Draft",
+    "videoSoon": "Video coming soon",
+    "play": "Play video",
+    "short": "Watch the short clip",
+    "fallbackNote": "This story isn't available in your language yet, so you're reading the English version.",
+    "partOf": "Part of",
+    "insideTitle": "Places in {place}",
+    "planTitle": "Thinking of going?",
+    "planText": "We can plan a trip around what you've just read, with local guides who know it well.",
+    "journeysTitle": "Journeys here"
   },
   "journeys": {
     "eyebrow": "Journeys",

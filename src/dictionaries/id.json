@@ -6,6 +6,7 @@
   "nav": {
     "how": "Cara kerja",
     "journeys": "Rute Perjalanan",
+    "explore": "Jelajahi Tiongkok",
     "destinations": "Destinasi",
     "tips": "Tips Wisata Tiongkok",
     "about": "Tentang kami",
@@ -171,6 +172,26 @@
     "lead": "Tim kami sendiri memandu Anda di Hangzhou dan Shanghai. Di tempat lain di Tiongkok, kami mengatur mitra lokal yang sudah diperiksa dan menemani Anda lewat chat.",
     "ourTeamNote": "Tim kami sendiri",
     "partnerNote": "Mitra lokal tepercaya"
+  },
+  "explore": {
+    "eyebrow": "Jelajahi Tiongkok",
+    "title": "Mengenal Tiongkok, satu provinsi demi satu",
+    "lead": "Cerita dan video tentang tempat-tempat yang kami cintai, ditulis dan direkam oleh tim kami. Mulailah dari gambaran besarnya, lalu masuki tiap provinsi.",
+    "startHere": "Mulai di sini",
+    "provincesTitle": "Provinsi",
+    "comingSoon": "Cerita pertama kami sedang disiapkan.",
+    "minRead": "{n} menit baca",
+    "by": "Oleh {name}",
+    "draft": "Draf",
+    "videoSoon": "Video segera hadir",
+    "play": "Putar video",
+    "short": "Tonton video pendeknya",
+    "fallbackNote": "Artikel ini belum tersedia dalam bahasa Anda, jadi Anda membaca versi bahasa Inggris.",
+    "partOf": "Bagian dari",
+    "insideTitle": "Tempat di {place}",
+    "planTitle": "Ingin ke sana?",
+    "planText": "Kami bisa merencanakan perjalanan berdasarkan apa yang baru Anda baca, bersama pemandu lokal yang mengenal tempatnya.",
+    "journeysTitle": "Rute di sini"
   },
   "journeys": {
     "eyebrow": "Rute Perjalanan",

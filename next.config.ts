@@ -8,6 +8,8 @@ const nextConfig: NextConfig = {
   async headers() {
     return isProduction ? [] : [{ source: "/:path*", headers: [{ key: "X-Robots-Tag", value: "noindex, nofollow" }] }];
   },
+  // Explore China articles are read from /content at build and request time.
+  outputFileTracingIncludes: { "/**": ["./content/**/*"] },
   cacheComponents: true,
   partialPrefetching: true,
   turbopack: {

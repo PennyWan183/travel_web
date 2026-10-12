@@ -6,6 +6,7 @@
   "nav": {
     "how": "服务流程",
     "journeys": "旅行路线",
+    "explore": "探索中国",
     "destinations": "目的地",
     "tips": "中国旅行指南",
     "about": "关于我们",
@@ -171,6 +172,26 @@
     "lead": "杭州和上海由我们自己的团队带你。中国其他地方，我们安排经过核验的当地合作方，并全程在线陪伴。",
     "ourTeamNote": "自有团队",
     "partnerNote": "可靠的当地合作方"
+  },
+  "explore": {
+    "eyebrow": "探索中国",
+    "title": "一省一省，认识中国",
+    "lead": "我们团队亲自撰写、拍摄的文字与影片，记录我们热爱的地方。先看中国全貌，再走进一个个省份。",
+    "startHere": "从这里开始",
+    "provincesTitle": "省份",
+    "comingSoon": "我们的第一批故事正在路上。",
+    "minRead": "阅读约 {n} 分钟",
+    "by": "作者：{name}",
+    "draft": "草稿",
+    "videoSoon": "视频即将上线",
+    "play": "播放视频",
+    "short": "观看短视频",
+    "fallbackNote": "这篇文章还没有你所选语言的版本，下面是英文版。",
+    "partOf": "所属",
+    "insideTitle": "{place}的地方",
+    "planTitle": "想去看看吗？",
+    "planText": "我们可以根据你刚读到的内容规划行程，并安排熟悉当地的向导。",
+    "journeysTitle": "这里的旅行路线"
   },
   "journeys": {
     "eyebrow": "旅行路线",
