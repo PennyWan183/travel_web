@@ -1,0 +1,285 @@
+{
+  "meta": {
+    "title": "Lantern Local · Teman lokal Anda untuk berwisata di Tiongkok",
+    "description": "Negeri salju, gurun, sawah terasering, dan kota pelabuhan tua di seluruh Tiongkok. Kami merencanakan perjalanan Anda, mencarikan pemandu lokal tepercaya, dan menemani Anda lewat chat."
+  },
+  "nav": {
+    "how": "Cara kerja",
+    "journeys": "Rute Perjalanan",
+    "destinations": "Destinasi",
+    "tips": "Tips Wisata Tiongkok",
+    "about": "Tentang kami",
+    "faq": "FAQ",
+    "request": "Kirim permintaan",
+    "menu": "Menu",
+    "close": "Tutup menu",
+    "language": "Bahasa"
+  },
+  "common": {
+    "whatsapp": "WhatsApp",
+    "kakao": "KakaoTalk",
+    "whatsappUs": "Chat lewat WhatsApp",
+    "sendRequest": "Kirim permintaan",
+    "askQuestion": "Ajukan pertanyaan",
+    "continue": "Lanjut",
+    "freeToAsk": "Gratis bertanya · Tidak perlu bayar sekarang",
+    "ourTeam": "Tim kami",
+    "localPartner": "Mitra lokal",
+    "breadcrumbHome": "Beranda"
+  },
+  "home": {
+    "eyebrow": "Tiongkok di luar Beijing dan Shanghai",
+    "title": "Teman lokal Anda untuk berwisata di Tiongkok.",
+    "lead": "Ceritakan ke mana Anda ingin pergi. Kami mencari tahu apa yang Anda butuhkan, menemukan pemandu lokal tepercaya di sana, dan menemani Anda lewat chat sejak tiba hingga pulang.",
+    "formTitle": "Cari pemandu lokal",
+    "formNote": "Gratis bertanya. Kami membalas dengan beberapa pilihan dan harga yang jelas.",
+    "howTitle": "Cara kerja",
+    "steps": [
+      { "title": "Ceritakan rencana Anda", "text": "Ke mana, kapan, siapa yang ikut, dan apa yang ingin Anda lihat." },
+      { "title": "Kami carikan pemandu lokal", "text": "Kami berbicara dengan pemandu dan agen berlisensi di sana, dalam bahasa Mandarin, lalu mengirimkan pilihan untuk Anda." },
+      { "title": "Konfirmasi dan bayar sekali", "text": "Satu harga yang jelas, dibayar dengan kartu atau PayPal." },
+      { "title": "Kami menemani selama perjalanan", "text": "Kirim pesan kapan saja untuk terjemahan, perubahan, atau bantuan." }
+    ],
+    "whyTitle": "Mengapa berwisata bersama Lantern Local",
+    "why": [
+      { "title": "Satu kontak untuk semuanya", "text": "Anda cukup berhubungan dengan kami, dalam bahasa Inggris atau Korea, dari awal sampai akhir." },
+      { "title": "Mitra lokal yang sudah diperiksa", "text": "Kami memeriksa lisensi dan berbicara langsung dengan setiap pemandu." },
+      { "title": "Tanpa aplikasi Tiongkok", "text": "Tiket, kereta, dan pembayaran yang butuh nomor ponsel Tiongkok: kami yang urus." },
+      { "title": "Harga jelas sejak awal", "text": "Harga lengkap sebelum Anda membayar. Tanpa mampir ke toko belanja." }
+    ],
+    "journeysTitle": "Rute untuk musim ini",
+    "journeysLead": "Tempat-tempat yang belum banyak ditemukan wisatawan. Setiap rute bisa disesuaikan dengan keinginan Anda.",
+    "allJourneys": "Lihat semua rute →",
+    "citiesTitle": "Atau mulai dari sebuah kota",
+    "somewhereElse": "Tempat lain?",
+    "somewhereElseText": "Tanya kami"
+  },
+  "form": {
+    "where": "Anda mau ke mana?",
+    "wherePlaceholder": "Kota atau wilayah, mis. Harbin, Xinjiang",
+    "arrival": "Tanggal tiba",
+    "departure": "Tanggal pulang",
+    "flexible": "Tanggal saya fleksibel",
+    "travellers": "Jumlah wisatawan",
+    "travellersPlaceholder": "mis. 2 dewasa",
+    "help": "Apa yang bisa kami bantu?",
+    "helpPlaceholder": "Pemandu, sopir, itinerary lengkap, tiket…",
+    "submit": "Kirim permintaan saya",
+    "sending": "Mengirim…",
+    "adults": "Dewasa",
+    "children": "Anak-anak",
+    "guideLanguage": "Bahasa pemandu",
+    "services": "Layanan (pilih sesuai kebutuhan)",
+    "serviceOptions": ["Pemandu lokal", "Sopir pribadi", "Jemput bandara", "Itinerary lengkap", "Kereta & tiket", "Saran hotel"],
+    "interests": "Minat",
+    "interestOptions": ["Sejarah", "Kuliner", "Alam & hiking", "Teh & kerajinan", "Fotografi", "Ramah keluarga"],
+    "style": "Gaya perjalanan",
+    "styleOptions": [
+      { "title": "Sederhana", "text": "Hemat, yang penting-penting saja" },
+      { "title": "Nyaman", "text": "Pemandu pribadi, hotel yang bagus" },
+      { "title": "Premium", "text": "Pemandu terbaik, semua detail diurus" }
+    ],
+    "notes": "Ada hal lain yang perlu kami ketahui?",
+    "notesPlaceholder": "Tempat wajib, kebutuhan mobilitas, makanan halal, acara spesial…",
+    "name": "Nama Anda",
+    "email": "Email",
+    "chatVia": "Cara chat yang paling nyaman",
+    "chatOptions": ["WhatsApp", "KakaoTalk", "Email saja"],
+    "handle": "Nomor WhatsApp atau ID Kakao",
+    "handlePlaceholder": "+62 812 0000 0000",
+    "consent": "Saya setuju Lantern Local boleh membagikan detail perjalanan yang saya berikan kepada pemandu atau agen lokal yang mengatur perjalanan saya, sesuai kebijakan privasi.",
+    "errorRequired": "Mohon isi tujuan, nama, email yang valid, dan centang kotak persetujuan.",
+    "errorSend": "Maaf, terjadi kesalahan. Silakan coba lagi atau kirim pesan lewat WhatsApp.",
+    "successTitle": "Terima kasih, permintaan Anda sudah kami terima.",
+    "successText": "Seseorang dari tim kami akan membacanya dan membalas dalam 24 jam. Silakan cek email dan aplikasi chat Anda."
+  },
+  "request": {
+    "eyebrow": "Permintaan perjalanan gratis",
+    "title": "Ceritakan perjalanan Anda",
+    "lead": "Beberapa detail sudah cukup untuk memulai. Setiap permintaan dibaca oleh orang sungguhan, lalu kami membalas dengan pilihan dan harga yang jelas. Tidak ada yang perlu dibayar sampai Anda konfirmasi.",
+    "sectionWhere": "Ke mana dan kapan",
+    "sectionWho": "Siapa yang berangkat",
+    "sectionWhat": "Apa yang Anda butuhkan",
+    "sectionContact": "Cara menghubungi Anda",
+    "nextTitle": "Langkah selanjutnya",
+    "next": [
+      "Kami membaca permintaan Anda dan membalas dalam 24 jam.",
+      "Kami menghubungi pemandu lokal dan mengirimkan pilihan dengan satu harga yang jelas.",
+      "Anda menyesuaikan sampai pas, lalu konfirmasi dengan uang muka."
+    ],
+    "chatTitle": "Lebih suka langsung chat?",
+    "chatText": "Kirim pesan dan ceritakan rencana Anda dengan kata-kata Anda sendiri."
+  },
+  "how": {
+    "eyebrow": "Cara kerja",
+    "title": "Satu kontak untuk seluruh perjalanan Anda di Tiongkok",
+    "lead": "Anda berbicara dengan kami dalam bahasa Inggris atau Korea. Kami mencari dan memeriksa orang lokal yang tepat, dalam bahasa Mandarin, dan menemani Anda sampai pulang.",
+    "steps": [
+      { "title": "Ceritakan rencana Anda", "text": "Isi formulir permintaan atau kirim pesan lewat WhatsApp. Kota, tanggal, siapa yang ikut, apa yang Anda suka. Ide kasar pun tidak apa-apa.", "note": "Gratis · tanpa pembayaran" },
+      { "title": "Kami carikan orang lokal yang tepat", "text": "Di Hangzhou dan Shanghai, tim kami sendiri yang memandu Anda. Di tempat lain, kami menghubungi pemandu dan agen berlisensi di kota itu, memeriksa mereka, dan memilih yang paling cocok.", "note": "Anda menerima rencana dan satu harga yang jelas" },
+      { "title": "Sesuaikan, lalu konfirmasi", "text": "Ubah apa saja sampai terasa pas. Uang muka dengan kartu atau PayPal mengonfirmasi perjalanan Anda, lalu kami mengirim itinerary tertulis berisi semua pemesanan.", "note": "Bayar sekali ke kami · kami yang membayar semua pihak lokal" },
+      { "title": "Kami menemani selama perjalanan", "text": "Pemandu menjemput Anda di hari keberangkatan. Kalau ada perubahan, kereta terlambat, atau Anda butuh penerjemah lewat telepon, kirim pesan dan kami bereskan.", "note": "Kami membalas dalam 24 jam" }
+    ],
+    "compareTitle": "Kota kami dan kota mitra",
+    "compareHead": ["", "Hangzhou & Shanghai", "Kota lain di Tiongkok"],
+    "compareRows": [
+      ["Siapa yang memandu", "Tim kami sendiri", "Pemandu atau agen lokal berlisensi yang sudah kami periksa"],
+      ["Siapa yang merencanakan", "Kami", "Kami, bersama mitra lokal"],
+      ["Bayar ke siapa", "Kami", "Kami"],
+      ["Kirim pesan ke siapa", "Kami", "Kami, kapan saja selama perjalanan"]
+    ],
+    "pricingTitle": "Cara kerja harga",
+    "pricing": [
+      { "title": "Satu harga total", "text": "Penawaran kami mencantumkan semua yang kami atur (pemandu, sopir, tiket, kereta) ditambah perencanaan dan dukungan kami, dalam satu angka. Tanpa biaya tersembunyi dan tanpa mampir ke toko belanja." },
+      { "title": "Uang muka, lalu pelunasan", "text": "Uang muka mengonfirmasi perjalanan Anda dan pelunasan dibayar sebelum berangkat. Jumlah dan tanggal pastinya tertulis di penawaran. Kartu atau PayPal." },
+      { "title": "Perubahan dan pembatalan", "text": "Ketentuan pembatalan tergantung isi perjalanan Anda. Kami menjelaskannya dengan jelas di penawaran, sebelum Anda membayar apa pun." }
+    ],
+    "included": "Biasanya termasuk: pemandu, sopir, tiket masuk yang Anda minta, dukungan dari kami",
+    "notIncluded": "Biasanya tidak termasuk: tiket pesawat, makan kecuali disebutkan, pengeluaran pribadi",
+    "ctaTitle": "Siap memulai?",
+    "ctaText": "Ceritakan ke mana Anda ingin pergi. Bertanya itu gratis."
+  },
+  "about": {
+    "eyebrow": "Tentang kami",
+    "title": "Tim kecil dari Hangzhou, menerangi jalan Anda di seluruh Tiongkok",
+    "story": "Kami adalah sekelompok orang yang gemar berwisata, senang berbagi, dan suka mengenal budaya dari berbagai negara. Tiongkok sangat luas, dengan bentang alam mulai dari pegunungan bersalju dan gurun hingga danau, pesisir, dan kota air kuno. Kami ingin menjelajahi semuanya, juga dunia yang lebih luas, dan membagikan keindahan alam serta budaya Tiongkok kepada lebih banyak teman. Hidup adalah sebuah perjalanan: mari bersama-sama melihat betapa beragamnya dunia ini!",
+    "teamTitle": "Orang-orang yang akan berbicara dengan Anda",
+    "teamHint": "Arahkan kursor atau ketuk seseorang untuk menyapa.",
+    "peopleLabels": { "speaks": "Bahasa", "travelled": "Pernah ke" },
+    "people": {
+      "penny": { "role": "Perencana perjalanan", "line": "Menyusun perjalanan Anda sedikit demi sedikit, seperti membangun paviliun dari balok.", "speaks": "Mandarin · Inggris", "travelled": "Tiongkok · Australia · Prancis · Indonesia" },
+      "holiday": { "role": "Pemandu lokal", "line": "Menjaga irama perjalanan Anda, dari pesan pertama sampai hari terakhir.", "speaks": "Mandarin · Inggris", "travelled": "Tiongkok · Prancis · Indonesia" },
+      "cassie": { "role": "Perencana perjalanan & pemandu lokal", "line": "Sambutan paling hangat di Hangzhou. Kucingnya juga menyapa.", "speaks": "Mandarin · Korea · Inggris", "travelled": "Tiongkok · Korea" }
+    },
+    "partnersTitle": "Cara kami memilih mitra lokal",
+    "partnersLead": "Di luar Hangzhou dan Shanghai, kami bekerja sama dengan pemandu dan agen lokal. Semuanya melewati pemeriksaan yang sama sebelum bertemu tamu.",
+    "checks": [
+      { "title": "Lisensi diperiksa", "text": "Lisensi agen perjalanan dan pemandu sudah diverifikasi." },
+      { "title": "Percakapan langsung", "text": "Kami berbicara dengan setiap pemandu soal bahasa, gaya, dan rute." },
+      { "title": "Ketentuan tertulis yang jelas", "text": "Standar layanan, tanpa tambahan mampir ke toko, dan siapa bertanggung jawab atas apa." },
+      { "title": "Ditinjau setiap selesai perjalanan", "text": "Masukan Anda menentukan dengan siapa kami bekerja berikutnya." }
+    ],
+    "company": "Perusahaan terdaftar",
+    "licence": "Lisensi agen perjalanan",
+    "insurance": "Asuransi",
+    "insuranceText": "Asuransi tanggung jawab agen perjalanan",
+    "contact": "Kontak",
+    "ctaTitle": "Sapa kami dan ceritakan ke mana Anda ingin pergi."
+  },
+  "destinations": {
+    "title": "Di mana kami bisa membantu",
+    "lead": "Tim kami sendiri memandu Anda di Hangzhou dan Shanghai. Di tempat lain di Tiongkok, kami mengatur mitra lokal yang sudah diperiksa dan menemani Anda lewat chat.",
+    "ourTeamNote": "Tim kami sendiri",
+    "partnerNote": "Mitra lokal tepercaya"
+  },
+  "journeys": {
+    "eyebrow": "Rute Perjalanan",
+    "title": "Tiongkok, di luar jalur biasa",
+    "lead": "Desa bersalju, gurun, sawah terasering, dan kota pelabuhan tempat berbagai budaya bertemu. Kami merencanakan setiap rute sesuai keinginan Anda dan mengurus semuanya di lapangan.",
+    "themes": {
+      "nature": {
+        "title": "Alam & musim",
+        "text": "Negeri salju, gurun, sawah terasering, dan puncak karst: pemandangan paling menakjubkan di Tiongkok."
+      },
+      "culture": {
+        "title": "Budaya & sejarah",
+        "text": "Pelabuhan tua, kuil, dan tradisi yang masih hidup, diceritakan oleh orang-orang yang mencintainya."
+      },
+      "tech": {
+        "title": "Tiongkok masa depan",
+        "text": "Pasar elektronik, drone, mobil listrik, dan konferensi teknologi yang membentuk masa depan."
+      }
+    },
+    "comingSoon": "Rute segera hadir. Ceritakan apa yang ingin Anda lihat, dan kami bisa merencanakannya bersama Anda sekarang.",
+    "seasons": {
+      "winter": "Musim dingin",
+      "spring": "Musim semi",
+      "summer": "Musim panas",
+      "autumn": "Musim gugur"
+    },
+    "citiesTitle": "Kota yang kami kenal baik",
+    "citiesLead": "Hangzhou adalah markas kami. Kami juga merencanakan perjalanan ke kota mana pun di Tiongkok."
+  },
+  "route": {
+    "bestTime": "Waktu terbaik",
+    "length": "Lama perjalanan",
+    "level": "Tingkat fisik",
+    "startFrom": "Mulai dari",
+    "highlightsTitle": "Sorotan",
+    "itineraryTitle": "Contoh itinerary",
+    "itineraryLead": "Ini salah satu caranya. Kami bisa mengubah tempo, jumlah hari, dan tempat singgah sesuai keinginan Anda.",
+    "day": "Hari {n}",
+    "handleTitle": "Yang kami urus untuk Anda",
+    "goodToKnowTitle": "Perlu diketahui",
+    "addOnTitle": "Tambahan",
+    "faqTitle": "Pertanyaan tentang rute ini",
+    "plan": "Rencanakan rute ini",
+    "planTitle": "Rencanakan perjalanan Anda: {route}",
+    "otherTitle": "Rute lainnya"
+  },
+  "city": {
+    "homeBadge": "Kota asal kami · Tim kami sendiri",
+    "partnerBadge": "Mitra lokal tepercaya",
+    "guidesAvailable": "Tersedia pemandu berbahasa Inggris & Korea",
+    "plan": "Rencanakan {city} bersama kami",
+    "suggestedStay": "Lama tinggal yang disarankan",
+    "gettingThere": "Cara ke sana",
+    "pairsWith": "Cocok digabung dengan",
+    "arrangedBy": "Diatur oleh",
+    "ideasTitle": "Ide untuk hari-hari Anda",
+    "ideasLead": "Setiap perjalanan direncanakan untuk Anda. Ini titik awal, bukan tur yang kaku.",
+    "takesCareTitle": "Yang diurus pemandu Anda",
+    "takesCare": [
+      "Tiket dan jadwal masuk, dipesan dengan identitas yang benar",
+      "Transportasi: sopir, metro, atau taksi, tanpa ponsel Tiongkok",
+      "Memesan makanan dan membayar di tempat yang tidak menerima kartu",
+      "Sejarah dan cerita dalam bahasa Inggris atau Korea"
+    ],
+    "partnerTitle": "Siapa yang akan memandu Anda",
+    "partnerChecks": [
+      "Lisensi agen diperiksa oleh tim kami",
+      "Kami berbicara dengan pemandu Anda sebelum Anda tiba",
+      "Setiap perjalanan ditinjau setelahnya",
+      "Anda bisa mengirim pesan kepada kami kapan saja"
+    ],
+    "teamTitle": "Tim {city} Anda",
+    "teamLead": "Di sini tidak ada perantara: orang yang membalas pesan Anda adalah orang yang memandu Anda.",
+    "faqTitle": "Pertanyaan tentang {city}",
+    "planTitle": "Rencanakan hari-hari Anda di {city}"
+  },
+  "faq": {
+    "title": "Pertanyaan yang sering diajukan",
+    "items": [
+      { "q": "Apakah hanya melayani Hangzhou dan Shanghai?", "a": "Tidak. Tim kami sendiri memandu di Hangzhou dan Shanghai. Untuk kota lain di Tiongkok, kami mengatur pemandu atau agen lokal yang sudah diperiksa dan menemani Anda lewat chat." },
+      { "q": "Apakah bertanya dikenakan biaya?", "a": "Tidak. Mengirim permintaan itu gratis. Anda baru membayar setelah menyetujui rencana dan harga." },
+      { "q": "Bagaimana cara membayar?", "a": "Dengan kartu atau PayPal, langsung ke kami. Uang muka mengonfirmasi perjalanan Anda dan pelunasan dibayar sebelum berangkat." },
+      { "q": "Apakah saya perlu visa?", "a": "Tergantung paspor dan rute Anda. Aturannya bisa berubah. Tanyakan kepada kami dan kami akan menunjukkan aturan resmi yang berlaku saat ini." },
+      { "q": "Pemandu Anda bisa berbahasa apa?", "a": "Inggris dan Korea, dan tentu saja Mandarin. Sampaikan pilihan Anda di formulir permintaan." }
+    ]
+  },
+  "tips": {
+    "title": "Tips Wisata Tiongkok",
+    "lead": "Panduan praktis untuk perjalanan Anda: visa, pembayaran, internet, dan transportasi.",
+    "comingSoon": "Segera hadir",
+    "topics": [
+      { "title": "Visa dan bebas visa", "text": "Siapa yang bisa masuk tanpa visa, dan apa yang perlu dicek sebelum memesan." },
+      { "title": "Membayar di Tiongkok", "text": "Mengatur Alipay atau WeChat Pay dengan kartu luar negeri, dan kapan uang tunai masih berguna." },
+      { "title": "Ponsel dan internet", "text": "eSIM, roaming, dan aplikasi yang bisa dipakai di Tiongkok." },
+      { "title": "Kereta dan transportasi", "text": "Memesan kereta cepat, taksi, dan metro tanpa nomor ponsel Tiongkok." }
+    ]
+  },
+  "legal": {
+    "privacyTitle": "Kebijakan privasi",
+    "termsTitle": "Ketentuan pemesanan",
+    "privacyBody": ["Saat Anda mengirim permintaan atau pesan, kami hanya menerima apa yang Anda pilih untuk dibagikan: nama, cara menghubungi Anda, dan detail perjalanan seperti tanggal, tujuan, jumlah orang, dan minat.", "Informasi ini hanya kami gunakan untuk membalas Anda, merencanakan perjalanan, dan mengatur pemandu, sopir, serta tiket yang Anda minta. Jika mitra lokal menangani sebagian perjalanan Anda, kami hanya membagikan apa yang mereka butuhkan untuk itu.", "Kami tidak pernah menjual informasi Anda atau menggunakannya untuk pemasaran yang tidak berkaitan.", "Permintaan yang dikirim dari situs ini sampai ke tim kami lewat email, melalui penyedia layanan email kami.", "Anda bisa meminta kami kapan saja untuk menunjukkan, memperbaiki, atau menghapus informasi tentang Anda. Cukup kirim email ke {email}."],
+    "termsBody": ["Bertanya itu gratis. Mengirim permintaan atau chat dengan kami tidak dipungut biaya dan tidak mengikat.", "Setiap perjalanan dikonfirmasi secara tertulis. Sebelum Anda membayar, kami mengirim penawaran berisi apa saja yang termasuk, harga total, uang muka, kapan pelunasan jatuh tempo, dan ketentuan pembatalan untuk perjalanan itu.", "Perjalanan Anda terpesan setelah Anda menyetujui penawaran dan membayar uang muka.", "Beberapa biaya, seperti tiket kereta, malam hotel, dan tiket masuk, mengikuti aturan perusahaan penjualnya. Kami selalu memberi tahu apa yang bisa dikembalikan sebelum Anda memesan.", "Ada pertanyaan tentang pemesanan? Kirim email ke {email} atau pesan lewat WhatsApp."]
+  },
+  "footer": {
+    "licence": "Lisensi"
+  },
+  "notFound": {
+    "title": "Halaman tidak ditemukan",
+    "text": "Halaman ini tidak ada. Kembali ke beranda atau kirim permintaan kepada kami.",
+    "home": "Kembali ke beranda"
+  }
+}

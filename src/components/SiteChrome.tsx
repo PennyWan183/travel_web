@@ -5,12 +5,12 @@ import { LanguageSwitcher } from "./LanguageSwitcher";
 import { MobileMenu } from "./MobileMenu";
 import { LanternIcon, WaveBand } from "./Motifs";
 
-export type NavKey = "how" | "destinations" | "tips" | "about" | "faq";
+export type NavKey = "how" | "journeys" | "tips" | "about" | "faq";
 
 export function Header({ dict, locale, active }: { dict: Dictionary; locale: Locale; active?: NavKey }) {
   const items: { key: NavKey; path: string }[] = [
+    { key: "journeys", path: "/journeys" },
     { key: "how", path: "/how-it-works" },
-    { key: "destinations", path: "/destinations" },
     { key: "tips", path: "/tips" },
     { key: "about", path: "/about" },
     { key: "faq", path: "/faq" },
@@ -19,12 +19,12 @@ export function Header({ dict, locale, active }: { dict: Dictionary; locale: Loc
   return (
     <>
       <header className="relative">
-        <div className="mx-auto flex max-w-[1200px] items-center justify-between gap-4 px-6 py-5">
+        <div className="mx-auto flex max-w-[1200px] items-center justify-between gap-3 px-4 py-5 sm:px-6">
           <Link href={href(locale)} className="flex items-center gap-3 no-underline">
             <span className="flex h-[42px] w-[42px] items-center justify-center rounded-full border-[1.5px] border-cobalt text-cobalt">
               <LanternIcon />
             </span>
-            <span className="font-serif text-[21px] font-semibold text-cobalt">{site.name}</span>
+            <span className="font-serif text-lg font-semibold whitespace-nowrap text-cobalt sm:text-[21px]">{site.name}</span>
           </Link>
 
           <nav aria-label="Main" className="hidden gap-7 text-[15px] lg:flex">
@@ -41,9 +41,7 @@ export function Header({ dict, locale, active }: { dict: Dictionary; locale: Loc
           </nav>
 
           <div className="flex items-center gap-3">
-            <div className="hidden sm:block">
-              <LanguageSwitcher current={locale} label={dict.nav.language} />
-            </div>
+            <LanguageSwitcher current={locale} label={dict.nav.language} />
             <Link
               href={href(locale, "/request")}
               className="hidden min-h-11 items-center rounded-full bg-cobalt px-5 text-sm font-semibold text-white no-underline hover:bg-cobalt-deep hover:text-white md:inline-flex"
@@ -59,9 +57,6 @@ export function Header({ dict, locale, active }: { dict: Dictionary; locale: Loc
               ]}
             />
           </div>
-        </div>
-        <div className="flex justify-center px-6 pb-4 sm:hidden">
-          <LanguageSwitcher current={locale} label={dict.nav.language} />
         </div>
       </header>
       <WaveBand />

@@ -1,6 +1,6 @@
 import { NextResponse, type NextRequest } from "next/server";
 
-const locales = ["en", "ko", "zh"];
+const locales = ["en", "id", "ja", "ko", "zh"];
 const defaultLocale = "en";
 
 /** Pick the visitor's language from the Accept-Language header. */
@@ -8,7 +8,8 @@ function preferredLocale(request: NextRequest): string {
   const header = request.headers.get("accept-language") ?? "";
   const wanted = header
     .split(",")
-    .map((part) => part.split(";")[0].trim().toLowerCase().slice(0, 2));
+    .map((part) => part.split(";")[0].trim().toLowerCase().slice(0, 2))
+    .map((code) => (code === "in" || code === "ms" ? "id" : code)); // old Indonesian code; Malay readers get Indonesian
   return wanted.find((code) => locales.includes(code)) ?? defaultLocale;
 }
 

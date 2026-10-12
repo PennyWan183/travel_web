@@ -21,6 +21,11 @@
 
 /* Base element styles live in the base layer so Tailwind utilities can override them */
 @layer base {
+/* Japanese pages use Japanese system fonts so shared Han characters get Japanese shapes */
+html:lang(ja) {
+  --font-serif: "Noto Serif", "Hiragino Mincho ProN", "Yu Mincho", "Noto Serif JP", serif;
+  --font-sans: "Noto Sans", "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Yu Gothic", "Meiryo", "Noto Sans JP", sans-serif;
+}
 html {
   scroll-behavior: smooth;
 }

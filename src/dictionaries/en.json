@@ -1,10 +1,11 @@
 {
   "meta": {
     "title": "Lantern Local · Your local friend for travel in China",
-    "description": "Tell us where you're going in China. We find a trusted local guide, handle the details, and stay with you on chat in English or Korean."
+    "description": "Snow country, deserts, rice terraces and old port cities across China. We plan your journey, find trusted local guides and stay with you on chat."
   },
   "nav": {
     "how": "How it works",
+    "journeys": "Journeys",
     "destinations": "Destinations",
     "tips": "China Travel Tips",
     "about": "About us",
@@ -27,7 +28,7 @@
     "breadcrumbHome": "Home"
   },
   "home": {
-    "eyebrow": "Anywhere in China · English & 한국어",
+    "eyebrow": "Beyond Beijing and Shanghai",
     "title": "Your local friend for travel in China.",
     "lead": "Tell us where you're going. We work out what you need, find a trusted local guide there, and stay with you on chat from arrival to departure.",
     "formTitle": "Find a local guide",
@@ -46,8 +47,10 @@
       { "title": "No Chinese apps needed", "text": "Tickets, trains and payments that need a Chinese phone: we sort them." },
       { "title": "Clear price upfront", "text": "The full price before you pay. No shopping stops." }
     ],
-    "whereTitle": "Where we can help",
-    "askAnyCity": "Ask about any city →",
+    "journeysTitle": "Journeys for this season",
+    "journeysLead": "Places most travellers haven't discovered yet. Every journey can be changed to suit you.",
+    "allJourneys": "See all journeys →",
+    "citiesTitle": "Or start from a city",
     "somewhereElse": "Somewhere else?",
     "somewhereElseText": "Ask us"
   },
@@ -168,6 +171,51 @@
     "lead": "Our own team guides you in Hangzhou and Shanghai. Everywhere else in China, we arrange checked local partners and stay with you on chat.",
     "ourTeamNote": "Our own team",
     "partnerNote": "Trusted local partner"
+  },
+  "journeys": {
+    "eyebrow": "Journeys",
+    "title": "China, off the usual path",
+    "lead": "Snow villages, deserts, rice terraces and the port cities where cultures met. We plan each journey around you and look after everything on the ground.",
+    "themes": {
+      "nature": {
+        "title": "Landscapes & seasons",
+        "text": "Snow country, deserts, rice terraces and karst peaks: China's most surprising scenery."
+      },
+      "culture": {
+        "title": "Culture & history",
+        "text": "Old ports, temples and living traditions, shared by people who love them."
+      },
+      "tech": {
+        "title": "Future China",
+        "text": "Electronics markets, drones, electric cars and the tech conferences shaping what comes next."
+      }
+    },
+    "comingSoon": "Journeys coming soon. Tell us what you'd like to see and we'll plan it with you now.",
+    "seasons": {
+      "winter": "Winter",
+      "spring": "Spring",
+      "summer": "Summer",
+      "autumn": "Autumn"
+    },
+    "citiesTitle": "Cities we know well",
+    "citiesLead": "Hangzhou is our home. We also plan trips to any other city in China."
+  },
+  "route": {
+    "bestTime": "Best time",
+    "length": "Suggested length",
+    "level": "Effort",
+    "startFrom": "Starts from",
+    "highlightsTitle": "Highlights",
+    "itineraryTitle": "A sample itinerary",
+    "itineraryLead": "One way to do it. We change the pace, days and stops to suit you.",
+    "day": "Day {n}",
+    "handleTitle": "What we take care of",
+    "goodToKnowTitle": "Good to know",
+    "addOnTitle": "Add-on",
+    "faqTitle": "Questions about this journey",
+    "plan": "Plan this journey",
+    "planTitle": "Plan your trip: {route}",
+    "otherTitle": "More journeys"
   },
   "city": {
     "homeBadge": "Our home city · Our own team",

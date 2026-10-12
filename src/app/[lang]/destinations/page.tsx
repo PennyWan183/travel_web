@@ -14,7 +14,7 @@ export default async function DestinationsPage() {
 
   return (
     <>
-      <Header dict={dict} locale={locale} active="destinations" />
+      <Header dict={dict} locale={locale} active="journeys" />
       <main className="mx-auto flex w-full max-w-[1200px] flex-col gap-10 px-6 pt-16 pb-24">
         <div className="flex flex-col items-center gap-4 text-center">
           <h1 className="m-0 font-serif text-[40px] font-normal sm:text-[48px]">{dict.destinations.title}</h1>

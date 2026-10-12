@@ -1,10 +1,11 @@
 {
   "meta": {
     "title": "Lantern Local · 你在中国旅行的本地朋友",
-    "description": "告诉我们你要去中国哪里。我们为你找到可靠的当地向导，处理各种细节，并全程在线陪伴。"
+    "description": "冰雪之乡、沙漠、梯田与古港城市。我们为你规划行程，找到可靠的当地向导，并全程在线陪伴。"
   },
   "nav": {
     "how": "服务流程",
+    "journeys": "旅行路线",
     "destinations": "目的地",
     "tips": "中国旅行指南",
     "about": "关于我们",
@@ -27,7 +28,7 @@
     "breadcrumbHome": "首页"
   },
   "home": {
-    "eyebrow": "中国各地 · English & 한국어",
+    "eyebrow": "北京、上海之外的中国",
     "title": "你在中国旅行的本地朋友。",
     "lead": "告诉我们你要去哪里。我们帮你理清需求，找到当地可靠的向导，从抵达到离开全程在线陪伴。",
     "formTitle": "寻找当地向导",
@@ -46,8 +47,10 @@
       { "title": "不需要中国 App", "text": "需要中国手机号的门票、火车和支付，我们来处理。" },
       { "title": "价格事先讲清", "text": "付款前就知道总价。没有购物点。" }
     ],
-    "whereTitle": "我们能去的地方",
-    "askAnyCity": "咨询其他城市 →",
+    "journeysTitle": "当季推荐路线",
+    "journeysLead": "大多数旅行者还没发现的地方。每条路线都可以按你的需要调整。",
+    "allJourneys": "查看全部路线 →",
+    "citiesTitle": "或者从一座城市开始",
     "somewhereElse": "其他地方？",
     "somewhereElseText": "问问我们"
   },
@@ -168,6 +171,51 @@
     "lead": "杭州和上海由我们自己的团队带你。中国其他地方，我们安排经过核验的当地合作方，并全程在线陪伴。",
     "ourTeamNote": "自有团队",
     "partnerNote": "可靠的当地合作方"
+  },
+  "journeys": {
+    "eyebrow": "旅行路线",
+    "title": "走出寻常路线的中国",
+    "lead": "雪村、沙漠、梯田，还有曾经多元文化交汇的港口城市。每条路线都围绕你来规划，当地的一切都由我们照应。",
+    "themes": {
+      "nature": {
+        "title": "地貌与四季",
+        "text": "冰雪、沙漠、梯田与喀斯特峰林，中国最令人惊叹的风景。"
+      },
+      "culture": {
+        "title": "人文与历史",
+        "text": "古港、寺庙与活着的传统，由热爱它们的人讲给你听。"
+      },
+      "tech": {
+        "title": "未来中国",
+        "text": "电子市场、无人机、电动车，以及塑造未来的科技大会。"
+      }
+    },
+    "comingSoon": "路线即将上线。告诉我们你想看什么，我们现在就可以为你规划。",
+    "seasons": {
+      "winter": "冬季",
+      "spring": "春季",
+      "summer": "夏季",
+      "autumn": "秋季"
+    },
+    "citiesTitle": "我们熟悉的城市",
+    "citiesLead": "杭州是我们的大本营，中国其他城市我们也可以为你安排。"
+  },
+  "route": {
+    "bestTime": "最佳时间",
+    "length": "建议天数",
+    "level": "体力要求",
+    "startFrom": "出发城市",
+    "highlightsTitle": "亮点",
+    "itineraryTitle": "参考行程",
+    "itineraryLead": "这只是一种走法，节奏、天数和站点都可以按你的需要调整。",
+    "day": "第 {n} 天",
+    "handleTitle": "我们为你搞定的事",
+    "goodToKnowTitle": "出发前须知",
+    "addOnTitle": "可加选",
+    "faqTitle": "关于这条路线的问题",
+    "plan": "规划这条路线",
+    "planTitle": "规划你的行程：{route}",
+    "otherTitle": "更多路线"
   },
   "city": {
     "homeBadge": "我们的家乡 · 自有团队",

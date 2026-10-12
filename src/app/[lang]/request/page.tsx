@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Suspense } from "react";
 import { site } from "@/config/site";
 import { cities } from "@/content/cities";
+import { routes } from "@/content/routes";
 import { getDictionary, getLocale, href, pick } from "@/i18n";
 import { fmt } from "@/lib/format";
 import { ContactButtons } from "@/components/ContactButtons";
@@ -39,7 +40,7 @@ export default async function RequestPage() {
                 successText={fmt(dict.form.successText, vars)}
                 privacyHref={href(locale, "/privacy")}
                 locale={locale}
-                quickCities={cities.map((c) => pick(c.name, locale))}
+                quickCities={[...routes.map((r) => pick(r.name, locale)), ...cities.map((c) => pick(c.name, locale))]}
               />
             </Suspense>
           </div>

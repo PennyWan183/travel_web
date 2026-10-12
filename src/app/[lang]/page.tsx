@@ -3,6 +3,8 @@ import { cities } from "@/content/cities";
 import { getDictionary, getLocale, href, pick } from "@/i18n";
 import { ContactButtons } from "@/components/ContactButtons";
 import { CityGrid } from "@/components/CityGrid";
+import { RouteCard } from "@/components/RouteCard";
+import { routes } from "@/content/routes";
 import { StepSeal, WaveBand } from "@/components/Motifs";
 import { QuickRequest } from "@/components/QuickRequest";
 import { Eyebrow, Footer, Header } from "@/components/SiteChrome";
@@ -29,7 +31,7 @@ export default async function HomePage() {
               dict={dict}
               locale={locale}
               title={h.formTitle}
-              cities={cities.map((c) => pick(c.name, locale))}
+              cities={[...routes.map((r) => pick(r.name, locale)), ...cities.filter((c) => c.page).map((c) => pick(c.name, locale))]}
             />
           </div>
         </section>
@@ -71,14 +73,27 @@ export default async function HomePage() {
           </div>
         </section>
 
-        {/* Destinations */}
-        <section className="mx-auto flex max-w-[1200px] flex-col gap-9 px-6 pt-14 pb-24">
+        {/* Journeys */}
+        <section className="mx-auto flex max-w-[1200px] flex-col gap-9 px-6 pt-14 pb-12">
           <div className="flex flex-col items-center gap-2.5 text-center">
-            <h2 className="m-0 font-serif text-[38px] font-normal">{h.whereTitle}</h2>
-            <Link href={href(locale, "/request")} className="font-medium">
-              {h.askAnyCity}
-            </Link>
+            <h2 className="m-0 font-serif text-[38px] font-normal">{h.journeysTitle}</h2>
+            <p className="m-0 max-w-[36em] text-[17px] text-ink-soft">{h.journeysLead}</p>
           </div>
+          <div className="grid grid-cols-[repeat(auto-fill,minmax(250px,1fr))] gap-6">
+            {routes.map((route) => (
+              <RouteCard key={route.slug} route={route} dict={dict} locale={locale} />
+            ))}
+          </div>
+          <p className="m-0 text-center">
+            <Link href={href(locale, "/journeys")} className="font-medium">
+              {h.allJourneys}
+            </Link>
+          </p>
+        </section>
+
+        {/* Cities */}
+        <section className="mx-auto flex max-w-[1200px] flex-col gap-9 px-6 pt-8 pb-24">
+          <h2 className="m-0 text-center font-serif text-[30px] font-normal">{h.citiesTitle}</h2>
           <CityGrid locale={locale} ourTeam={dict.common.ourTeam} partner={dict.common.localPartner} somewhereElse={h.somewhereElse} somewhereElseText={h.somewhereElseText} />
         </section>
       </main>

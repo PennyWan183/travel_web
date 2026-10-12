@@ -47,7 +47,7 @@ export default async function CityPage({ params }: PageProps<"/[lang]/destinatio
 
   return (
     <>
-      <Header dict={dict} locale={locale} active="destinations" />
+      <Header dict={dict} locale={locale} active="journeys" />
       <main>
         <nav aria-label="Breadcrumb" className="mx-auto max-w-[1200px] px-6 pt-5 text-sm text-ink-soft">
           <Link href={href(locale, "/destinations")} className="no-underline">
@@ -71,7 +71,7 @@ export default async function CityPage({ params }: PageProps<"/[lang]/destinatio
             </div>
             <h1 className="m-0 font-serif text-[40px] leading-[1.1] font-normal sm:text-[56px]">
               {name}{" "}
-              {locale !== "zh" && <span className="text-[0.64em] text-cobalt-mid">{city.chineseName}</span>}
+              {locale !== "zh" && locale !== "ja" && <span className="text-[0.64em] text-cobalt-mid">{city.chineseName}</span>}
             </h1>
             <p className="m-0 max-w-[32em] text-lg leading-[1.7] text-ink-soft">{pick(page.intro, locale)}</p>
             <div className="flex flex-wrap gap-3">
