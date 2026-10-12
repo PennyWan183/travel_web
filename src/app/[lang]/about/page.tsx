@@ -65,11 +65,13 @@ export default async function AboutPage() {
           <div className="rounded-3xl border-[1.5px] border-cobalt bg-white p-2">
             <dl className="m-0 grid grid-cols-[repeat(auto-fit,minmax(220px,1fr))] gap-6 rounded-[18px] border border-glaze-line p-8">
               {[
-                [a.company, site.companyName, `${site.companyCity}, China`],
+                [a.company, site.companyName, site.companyCity && `${site.companyCity}, China`],
                 [a.licence, site.licenseNumber, ""],
-                [a.insurance, a.insuranceText, site.insurer],
-                [a.contact, site.email, "WhatsApp · KakaoTalk"],
-              ].map(([label, value, sub]) => (
+                [a.insurance, site.insurer && a.insuranceText, site.insurer],
+                [a.contact, site.email, site.kakaoUrl ? "WhatsApp · KakaoTalk" : "WhatsApp"],
+              ]
+                .filter(([, value]) => value)
+                .map(([label, value, sub]) => (
                 <div key={label} className="flex flex-col gap-1.5">
                   <dt className="text-[13px] tracking-[0.12em] text-cobalt-mid uppercase">{label}</dt>
                   <dd className="m-0 font-semibold">{value}</dd>

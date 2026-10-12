@@ -13,11 +13,12 @@ export const site = {
   // TODO: public contact email
   email: "lanternlocal@zohomail.com",
 
-  // TODO: legal details shown in the footer and on About
-  companyName: "[Company name]",
-  companyCity: "[City]",
-  licenseNumber: "[Licence no.]",
-  insurer: "[Insurer]",
+  // Optional legal details. Leave "" to hide them; fill in to show them
+  // on About (and the licence number in the footer).
+  companyName: "",
+  companyCity: "",
+  licenseNumber: "",
+  insurer: "",
 
   // TODO: shown on the request form and How it works
   responseTime: "24h",

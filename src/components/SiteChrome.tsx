@@ -75,7 +75,8 @@ export function Footer({ dict, locale }: { dict: Dictionary; locale: Locale }) {
       <WaveBand />
       <div className="mx-auto flex max-w-[1200px] flex-wrap justify-between gap-4 px-6 pt-7 pb-9 text-sm text-ink-soft">
         <span>
-          {site.name} · {dict.footer.licence} {site.licenseNumber}
+          {site.name}
+          {site.licenseNumber && ` · ${dict.footer.licence} ${site.licenseNumber}`}
         </span>
         <span className="flex flex-wrap gap-4">
           <Link href={href(locale, "/privacy")}>{dict.legal.privacyTitle}</Link>

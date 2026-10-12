@@ -140,7 +140,9 @@ export default async function CityPage({ params }: PageProps<"/[lang]/destinatio
             <div className="grid grid-cols-[repeat(auto-fit,minmax(260px,1fr))] gap-5">
               {page.team.map((guide, i) => (
                 <div key={i} className="flex items-center gap-4.5 rounded-[20px] border border-glaze-soft bg-white p-6">
-                  <PhotoSlot label="Photo" className="plate-frame h-24 w-24 shrink-0 p-0 text-xs" />
+                  <span aria-hidden="true" className="plate-frame flex h-20 w-20 shrink-0 items-center justify-center font-serif text-3xl text-cobalt">
+                    {guide.name[0]}
+                  </span>
                   <div className="flex flex-col gap-1">
                     <b className="font-serif text-[19px] font-semibold">{guide.name}</b>
                     <span className="text-sm text-ink-soft">{guide.languages}</span>

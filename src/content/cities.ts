@@ -152,9 +152,9 @@ export const cities: City[] = [
         },
       ],
       team: [
-        { name: "[Guide name]", languages: "English · 中文", themes: { en: "Tea hills · Old Hangzhou", ko: "차밭 · 옛 항저우", zh: "茶山 · 老杭州" } },
-        { name: "[Guide name]", languages: "한국어 · 中文", themes: { en: "Families · Photo spots", ko: "가족 여행 · 포토 스팟", zh: "亲子 · 拍照点" } },
-        { name: "[Guide name]", languages: "English · 한국어", themes: { en: "Food walks · Water towns", ko: "미식 산책 · 수향마을", zh: "美食漫步 · 水乡" } },
+        { name: "Penny", languages: "中文 · English", themes: { en: "Trip planner", ko: "여행 플래너", zh: "行程规划师" } },
+        { name: "Holiday", languages: "中文 · English", themes: { en: "Local guide", ko: "현지 가이드", zh: "本地向导" } },
+        { name: "Cassie", languages: "中文 · 한국어 · English", themes: { en: "Trip planner & local guide", ko: "여행 플래너 · 현지 가이드", zh: "行程规划师 · 本地向导" } },
       ],
     },
   },
